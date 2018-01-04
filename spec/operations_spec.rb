@@ -8,10 +8,10 @@ describe "Operations" do
       expect(answer).to eq(true)
     end
 
-  #  it 'returns true if speed is less than 40' do
-  #    answer = unsafe?(35)
-  #    expect(answer).to eq(true)
-  #  end
+    it 'returns true if speed is less than 40' do
+      answer = unsafe?(35)
+      expect(answer).to eq(true)
+    end
 
     it 'returns false if the speed is between 40 and 60' do
       answer = unsafe?(50)
